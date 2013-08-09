@@ -13,7 +13,7 @@
   "resources": [
     {
       "name": "sites",
-      "url": "data/sites.csv",
+      "path": "data/sites.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
