@@ -1,0 +1,100 @@
+{
+  "name": "datacatalogs",
+  "title": "Open Data Websites and Catalogs",
+  "description": "",
+  "licenses": [
+    {
+      "id": "odc-pddl",
+      "name": "Public Domain Dedication and License",
+      "version": "1.0",
+      "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "sites",
+      "url": "data/sites.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "id": "title",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "id": "id",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "id": "tags",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "id": "url",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "id": "author",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "id": "description",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "id": "group",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "id": "place",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "id": "location",
+            "description": "",
+            "type": "geopoint"
+          },
+          {
+            "id": "state",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "id": "license",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "id": "author_url",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "id": "created",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "id": "lastmodified",
+            "description": "",
+            "type": "string"
+          },
+          {
+            "id": "metadatamodified",
+            "description": "",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
